@@ -113,7 +113,17 @@ animation-fill-mode: forwards;
 }
 #left-about {
     padding-top: 30px;
-    width: ;
+    width: 33% ;
+    float:left;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+#center-about {
+    width: 33%;
+    margin: 0 auto;
 }
 hr {
     border-top: 1px solid #3a3a3a;
@@ -167,4 +177,15 @@ hr {
     background: url('../images/ethos-center-image.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* event times */
+
+#times {
+    background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
